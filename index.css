@@ -1,0 +1,32 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+    background: url('./dist/img/lawbackgound.png') 18% 100% no-repeat , url('./dist//img/compas.jpg') 10% 30% no-repeat;
+    background-size: 9%, 20%;
+
+  }
+
+  .cover {
+    background: url('./dist/img/symp2.jpg') 20% no-repeat;
+    background-size: 20%;
+    overflow: hidden;
+    height: auto;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+    
+  }
+  .cover > .mainInfo {
+    flex-wrap: wrap;
+  }
+  .cover > .mainInfo > h2 {
+    color: white;
+    font: 100 10vmin/10vh, cursive;  
+    text-align: right;
+    mix-blend-mode: difference
+  }
+
+  .divider {
+    margin: 1rem;
+  }
