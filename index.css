@@ -3,8 +3,8 @@ body {
     padding-bottom: 3rem;
     color: #5a5a5a;
     background: url('./dist/img/lawbackgound.png') 18% 100% no-repeat , 
-    url('./dist//img/compas.jpg') 10% 30% no-repeat,
-    url('./dist//img/compas.jpg') 31% 100% no-repeat
+    url('./dist/img/compas.jpg') 10% 30% no-repeat,
+    url('./dist/img/compas.jpg') 31% 100% no-repeat
     ;
     background-size: 9%, 
     20%,
@@ -15,10 +15,13 @@ body {
   .lead {
     font-size: 1.5em;
   }
+  .section {
+    box-shadow: 1.5px;
+  }
 
   .cover {
     background: url('./dist/img/symp.jpg') 20% no-repeat;
-    background-size: 25%;
+    background-size: 30%;
     border-radius: 15px;
     overflow: hidden;
     height: auto;
