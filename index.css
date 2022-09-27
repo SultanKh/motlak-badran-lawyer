@@ -2,13 +2,13 @@ body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: #5a5a5a;
-    background: url('./dist/img/lawbackgound.png') 18% 100% no-repeat , 
-    url('./dist/img/MD.png') 10% 30% no-repeat,
-    url('./dist/img/MD.png') 31% 100% no-repeat
+    background: url('./dist/img/lawbackgound.png') 10% 98% no-repeat , 
+    url('./dist/img/MD.png') 10% 28% no-repeat,
+    url('./dist/img/MD.png') 90% 89% no-repeat
     ;
-    background-size: 9%, 
+    background-size: 11%, 
     20%,
-    20%;
+    25%;
 
   }
 
@@ -48,4 +48,73 @@ body {
 
   .divider {
     margin: 1rem;
+  }
+
+
+
+  .contact-info{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+  }
+
+  .card-contact {
+    background: #2f3542;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    
+  }
+
+  .card-contact .card-icon{
+    font-size: 28px;
+    background: #CFB53B;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+  }
+
+  .card-contact:hover .card-icon{
+    background: none;
+    color: #CFB53B;
+    transform: scale(1.6);
+  }
+
+  .card-contact p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+  }
+  
+  .card-contact:hover p{
+    max-height: 40px;
+    opacity: 1;
+  }
+
+  @media screen and (max-width:800px) {
+    .contact-info{
+      flex-direction: column;
+    }
+    .card-contact{
+      width: 100%;
+      max-width: 300px;
+      margin: 10px 0;
+    }
   }
