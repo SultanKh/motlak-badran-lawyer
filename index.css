@@ -6,8 +6,13 @@ body {
   font-size: 2rem;
 }
 
+.owner .avatar {
+  margin-top: 1rem;
+  transform: scale(1.5);
+}
+
 h2 {
-  line-height: 1.5em;
+  line-height: 2.5em;
   padding: .5em;
 }
 
@@ -20,5 +25,9 @@ h2 {
 }
 
 #important-info .info-title {
+  font-size: 1.5rem;
+}
+
+#news p {
   font-size: 1.5rem;
 }
